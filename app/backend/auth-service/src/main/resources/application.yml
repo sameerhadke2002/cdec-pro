@@ -6,7 +6,7 @@ spring:
     name: auth-service
   data:
     mongodb:
-      uri: ${MONGO_URI:mongodb+srv://admin:redhat123@cluster0.0xef32k.mongodb.net/cb_auth?retryWrites=true&w=majority&appName=cdec-dev}
+      uri: "mongodb+srv://admin:redhat123@cluster0.wjo6wxc.mongodb.net/cb_auth?authSource=admin&retryWrites=true&w=majority&appName=Cluster0"
   security:
     user:
       name: admin
